@@ -1,4 +1,4 @@
-<h1>Timer com Programação Funcional</h1>
+<h1>Cronômetro com Programação Funcional</h1>
 Este projeto consiste em um exemplo de um cronômetro simples que utiliza programação funcional. Nesse modelo, as funções são tratadas como unidades independentes e puras, o que significa que elas não modificam o estado do programa ou das variáveis. A seguir, uma breve descrição das funções utilizadas:
 
 <h2>initialState</h2>
