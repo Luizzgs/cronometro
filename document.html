@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+      <div class="cronometro">
+            <div class="display">
+            <span class="timer" id="hour">00</span><span class="timer">:</span> 
+            <span class="timer" id="minute">00</span><span class="timer">:</span> 
+            <span class="timer" id="second">00</span><span class="millisecond">:</span> 
+            <span class="millisecond" id="millisecond">00</span>
+        </div>
+            
+        <div class="buttons">
+            
+          <button id="start" class="fa fa-play"></button>
+          <button id="pause" class="fa fa-stop"></button>
+          <button id="reset"class="fa fa-rotate-right"></button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

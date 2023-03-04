@@ -1,0 +1,47 @@
+.cronometro{
+    width: 400px;
+    height: 400px;
+    border: 15px solid #000;
+    border-radius: 60%;
+    background: whitesmoke;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+    
+}
+.text{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    color: #000;
+    position: absolute;
+    left: 32%;
+    top: 15%;
+
+}
+
+.timer{
+    font-family: 'Orbitron', sans-serif;
+   font-size: 65px;
+   color: #000;
+}
+
+.display{
+    position: absolute;
+    top: 44%;
+    left: 28%;
+    margin: -16px 0 0 -50px;
+
+}
+
+.millisecond{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+.buttons{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin: -16px 0 0 -50px;
+}
