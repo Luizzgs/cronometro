@@ -31,4 +31,5 @@ Variável que guarda o estado atual do timer.
 <h2>document.getElementById('start')</h2>
 Evento que inicia o timer quando o botão "Start" é clicado, também utilizado em "Pause" e "Restart"
 
+<h4>Com a abordagem de programação funcional, esse código torna-se mais fácil de entender, testar e modificar, sem que haja efeitos colaterais ou estados imprevisíveis. Ele é ideal para projetos que precisam lidar com estados e funções complexas.</h4>
 
