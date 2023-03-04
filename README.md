@@ -1,8 +1,8 @@
 <h1>Timer com Programação Funcional</h1>
 <br />
-Este projeto consiste em um exemplo de um timer simples que utiliza a abordagem de programação funcional. Nesse modelo, as funções são tratadas como unidades independentes e puras, o que significa que elas não modificam o estado do programa ou das variáveis. A seguir, uma breve descrição das funções utilizadas:
+Este projeto consiste em um exemplo de um timer simples que utiliza programação funcional. Nesse modelo, as funções são tratadas como unidades independentes e puras, o que significa que elas não modificam o estado do programa ou das variáveis. A seguir, uma breve descrição das funções utilizadas:
 
-initialState<br />
+<h2>initialState</h2>
 Variável que guarda o estado inicial do timer.
 
 formatTime(time)<br />
