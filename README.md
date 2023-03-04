@@ -1,6 +1,5 @@
 <h1>Timer com Programação Funcional</h1>
-<br />
-Este projeto consiste em um exemplo de um timer simples que utiliza programação funcional. Nesse modelo, as funções são tratadas como unidades independentes e puras, o que significa que elas não modificam o estado do programa ou das variáveis. A seguir, uma breve descrição das funções utilizadas:
+Este projeto consiste em um exemplo de um cronômetro simples que utiliza programação funcional. Nesse modelo, as funções são tratadas como unidades independentes e puras, o que significa que elas não modificam o estado do programa ou das variáveis. A seguir, uma breve descrição das funções utilizadas:
 
 <h2>initialState</h2>
 Variável que guarda o estado inicial do timer.
@@ -30,6 +29,6 @@ Função que renderiza o estado do timer atualizado no HTML. Essa função não 
 Variável que guarda o estado atual do timer.
 
 <h3>document.getElementById('start')</h3>
-Evento que inicia o timer quando o botão "Start" é clicado.
+Evento que inicia o timer quando o botão "Start" é clicado, também utilizado em "Pause" e "Restart"
 
 
