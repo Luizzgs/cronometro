@@ -16,9 +16,9 @@ const initialState = {
     return {
       ...state,
       millisecond: millisecond + 10 >= 1000 ? 0 : millisecond + 10,
-      second: millisecond + 10 >= 1000 ? second + 1 : second,
-      minute: second === 60 ? minute + 1 : minute,
-      hour: minute === 60 ? hour + 1 : hour
+      second: millisecond + 10 >= 1000 ? second + 1 : second && second + 1 == 60 ? 0 : second,
+      minute: second + 1 >= 60 ? minute + 1 : minute && minute + 1 == 61 ? 0 : minute,
+      hour: minute + 1 >= 61 ? hour + 1 : hour 
     }
   }
   
